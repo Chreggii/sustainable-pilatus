@@ -1,0 +1,19 @@
+@import 'bootstrap/scss/bootstrap.scss';
+
+:host {
+  display: flex;
+}
+
+.landing {
+  background: #f3f3f3;
+}
+
+.header {
+  letter-spacing: 0.15em;
+  font-size: 22px;
+}
+
+img {
+  width: 40%;
+  min-width: 300px;
+}

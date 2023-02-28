@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import 'bootstrap/scss/bootstrap';
+
+@font-face {
+  font-family: 'Oak Bold';
+  src: url('assets/fonts/oak-bold.ttf');
+
+  font-family: 'Oak Light';
+  src: url('assets/fonts/oak-light.ttf');
+}
+
+* {
+  font-family: 'Oak Bold', sans-serif;
+}
