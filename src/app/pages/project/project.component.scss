@@ -1,0 +1,55 @@
+@import 'bootstrap/scss/bootstrap.scss';
+
+:host {
+  display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  .container-inner {
+    flex-wrap: wrap;
+  }
+
+  .description {
+    margin-bottom: 15px;
+    margin-right: 0 !important;
+    text-align: left !important;
+  }
+}
+
+.project {
+  background: $gray-100;
+}
+
+.header {
+  letter-spacing: 0.15em;
+  font-size: 35px;
+}
+
+.container-inner {
+  flex-direction: row;
+  // flex-wrap: wrap;
+}
+
+.description {
+  font-family: 'Plantin Light', serif;
+  font-size: 24px;
+  text-align: right;
+}
+
+.seperator {
+  border-width: 2px;
+  border-style: solid;
+  width: 20%;
+  min-width: 200px;
+}
+
+p {
+  font-family: 'Plantin Light', serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+img {
+  width: 25%;
+  min-width: 150px;
+}
