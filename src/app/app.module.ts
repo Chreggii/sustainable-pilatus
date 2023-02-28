@@ -12,4 +12,4 @@ import { LandingModule } from './pages/landing/landing.module';
   providers: [],
   bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
