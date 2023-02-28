@@ -9,8 +9,14 @@ import { ProjectModule } from './pages/project/project.module';
 
 @NgModule({
   declarations: [AppComponent],
-  imports: [BrowserModule, AppRoutingModule, NgbModule, LandingModule, ProjectModule],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    NgbModule,
+    LandingModule,
+    ProjectModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

@@ -4,10 +4,8 @@ import { NgModule } from '@angular/core';
 import { ProjectComponent } from './project.component';
 
 @NgModule({
-  imports: [
-    CommonModule
-  ],
+  imports: [CommonModule],
   declarations: [ProjectComponent],
-  exports: [ProjectComponent]
+  exports: [ProjectComponent],
 })
-export class ProjectModule { }
+export class ProjectModule {}
