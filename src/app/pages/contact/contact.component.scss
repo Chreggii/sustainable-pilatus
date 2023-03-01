@@ -1,0 +1,19 @@
+@import 'bootstrap/scss/bootstrap.scss';
+
+:host {
+  display: flex;
+}
+
+.contact {
+  background: $gray-100;
+}
+
+.mail {
+  letter-spacing: 0.025em;
+  font-weight: 700;
+  font-size: 1.375em;
+
+  a {
+    color: inherit;
+  }
+}

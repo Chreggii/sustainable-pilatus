@@ -1,0 +1,9 @@
+:host {
+  display: flex;
+}
+
+.description {
+  font-family: 'Plantin Light', serif;
+  font-size: var(--text-description-font-size, 24px);
+  text-align: var(--text-description-text-align, right);
+}

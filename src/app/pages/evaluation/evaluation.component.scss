@@ -1,0 +1,28 @@
+@import 'bootstrap/scss/bootstrap.scss';
+
+:host {
+  display: flex;
+}
+
+.evaluation {
+  background: $gray-200;
+}
+
+.description {
+  font-family: 'Plantin Light', serif;
+  font-size: 24px;
+  text-align: left;
+}
+
+.evaluation-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 1rem;
+  row-gap: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .evaluation-grid {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,23 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  letter-spacing: 0.15em;
+  font-size: 35px;
+}
+
+.seperator {
+  border-width: 2px;
+  border-style: solid;
+  width: 20%;
+  min-width: 200px;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    font-size: 22px;
+  }
+}
