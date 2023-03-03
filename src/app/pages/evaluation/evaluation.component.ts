@@ -62,6 +62,7 @@ export class EvaluationComponent {
         zoom: {
           enabled: false,
         },
+        toolbar: { show: false },
       },
       dataLabels: {
         enabled: false,

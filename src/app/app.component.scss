@@ -1,3 +1,22 @@
+.menu-button {
+  position: fixed;
+  right: 0;
+  z-index: 100;
+  cursor: pointer;
+
+  i {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .menu-button {
+    i {
+      font-size: 2rem;
+    }
+  }
+}
+
 .full-size {
   min-height: 100vh;
   height: fit-content;

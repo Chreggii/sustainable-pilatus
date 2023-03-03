@@ -1,0 +1,7 @@
+<div *ngIf="viewModel$ | async as viewModel" class="menu d-flex flex-grow-1">
+  <ng-container *ngFor="let item of viewModel.items">
+    <div (click)="item.action(item.id)">
+      {{ item.label }}
+    </div>
+  </ng-container>
+</div>

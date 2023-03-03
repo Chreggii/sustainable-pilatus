@@ -1,7 +1,17 @@
-<app-landing class="full-size"></app-landing>
+<div class="menu-button">
+  <i class="bi bi-list m-2" (click)="isMenuVisible = !isMenuVisible"></i>
+</div>
 
-<app-project class="full-size"></app-project>
+<div>
+  <div>
+    <app-landing class="full-size"></app-landing>
 
-<app-evaluation class="full-size"></app-evaluation>
+    <app-project class="full-size"></app-project>
 
-<app-contact class="half-size"></app-contact>
+    <app-evaluation class="full-size"></app-evaluation>
+
+    <app-contact class="half-size"></app-contact>
+  </div>
+
+  <app-menu *ngIf="isMenuVisible"></app-menu>
+</div>
