@@ -24,7 +24,7 @@ export class MenuService {
     },
     {
       id: 'evaluation',
-      label: 'Evaluation',
+      label: 'Auswertung',
       action: (id: MenuPage) => this.selectItem(id),
     },
     {
