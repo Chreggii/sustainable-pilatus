@@ -15,6 +15,29 @@
       font-size: 2rem;
     }
   }
+
+  .menu {
+    app-menu {
+      max-height: unset;
+      left: 100vw;
+      transition: left 0.5s ease-in;
+
+      &.visible {
+        left: 0;
+      }
+    }
+  }
+}
+
+app-menu {
+  max-height: 0;
+  transition: max-height 1s ease-out;
+  overflow: hidden;
+
+  &.visible {
+    max-height: 100vh;
+    transition: max-height 1.5s ease-in;
+  }
 }
 
 .full-size {
