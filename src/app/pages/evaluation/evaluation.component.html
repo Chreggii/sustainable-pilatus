@@ -4,9 +4,16 @@
 
     <div class="d-flex flex-column">
       <div class="chart">
-        <apx-chart [series]="chartOptions.series!" [chart]="chartOptions.chart!" [xaxis]="chartOptions.xaxis!"
-          [yaxis]="chartOptions.yaxis!" [dataLabels]="chartOptions.dataLabels!" [grid]="chartOptions.grid!"
-          [stroke]="chartOptions.stroke!" [title]="chartOptions.title!"></apx-chart>
+        <apx-chart
+          [series]="chartOptions.series!"
+          [chart]="chartOptions.chart!"
+          [xaxis]="chartOptions.xaxis!"
+          [yaxis]="chartOptions.yaxis!"
+          [dataLabels]="chartOptions.dataLabels!"
+          [grid]="chartOptions.grid!"
+          [stroke]="chartOptions.stroke!"
+          [title]="chartOptions.title!"
+        ></apx-chart>
       </div>
       <div class="evaluation-grid">
         <!-- <div>
@@ -20,48 +27,67 @@
         <!-- <div></div> -->
         <div>
           <app-paragraph>
-            Das Projekt wurde loziert, indem ich ein Rundmail an alle HR-Mitarbeiter versendet habe mit dem Aufruf an
-            meinem Nachhaltigkeitsprojekt teilzunehmen, welches am 6. Februar 2023 startet und über zwei Wochen dauert.
-            Dabei wurde auch das Projektziel bekanntgegeben, welches einen durchschnittlichen Tupperware-Gebrauch von
-            70% anstrebt. Die Rückmeldung war äusserst positiv und alle HR-Mitarbeiter haben sich bereiterklärt am
-            Projekt teilzunehmen.
+            Das Projekt wurde loziert, indem ich ein Rundmail an alle
+            HR-Mitarbeiter versendet habe mit dem Aufruf an meinem
+            Nachhaltigkeitsprojekt teilzunehmen, welches am 6. Februar 2023
+            startet und über zwei Wochen dauert. Dabei wurde auch das
+            Projektziel bekanntgegeben, welches einen durchschnittlichen
+            Tupperware-Gebrauch von 70% anstrebt. Die Rückmeldung war äusserst
+            positiv und alle HR-Mitarbeiter haben sich bereiterklärt am Projekt
+            teilzunehmen.
           </app-paragraph>
 
           <app-paragraph>
-            Um eine Analyse über den Tupperware-Gebrauch beim Kiosk durchzuführen und das Projekt auf das HR-Team
-            begrenzt musste eine Identifikation beim Kiosk durchgeführt werden, um HR-Mitarbeiter von anderen Teams zu
-            unterscheiden. Diese Diversifikation gelang mittels des Mitarbeiter-Badges welcher als Zahlungsmittel beim
-            Kiosk gilt. Mittels der gespeicherten Informationen auf dem Badge konnte der Kiosk Mitarbeiter das Team, in
-            welchem der Kunde eingeteilt ist, erfassen. Der Kiosk Mitarbeiter führte eine Liste in welcher er/sie die
-            Anzahl der HR-Mitarbeiter festhielt, welche ihr eigenes Tupperware mitbrachten und welche von Einweggeschirr
-            nütze machten. Diese Liste wurde mir jeden Abend per Mail zugesandt. Mit den daraus resultierenden Daten
-            wurde das oben abgebildete Diagramm dargestellt. Weiter habe ich das Gewicht von einem Einweggeschirr gewägt
-            um eine Erkenntnis zu Gewinnen wie viel Abfall in der Projektlaufzeit gespart werden konnte. Das
-            resultierende Gewicht betrag 0.2 kg (TODO).
+            Um eine Analyse über den Tupperware-Gebrauch beim Kiosk
+            durchzuführen und das Projekt auf das HR-Team begrenzt musste eine
+            Identifikation beim Kiosk durchgeführt werden, um HR-Mitarbeiter von
+            anderen Teams zu unterscheiden. Diese Diversifikation gelang mittels
+            des Mitarbeiter-Badges welcher als Zahlungsmittel beim Kiosk gilt.
+            Mittels der gespeicherten Informationen auf dem Badge konnte der
+            Kiosk Mitarbeiter das Team, in welchem der Kunde eingeteilt ist,
+            erfassen. Der Kiosk Mitarbeiter führte eine Liste in welcher er/sie
+            die Anzahl der HR-Mitarbeiter festhielt, welche ihr eigenes
+            Tupperware mitbrachten und welche von Einweggeschirr nütze machten.
+            Diese Liste wurde mir jeden Abend per Mail zugesandt. Mit den daraus
+            resultierenden Daten wurde das oben abgebildete Diagramm
+            dargestellt. Weiter habe ich das Gewicht von einem Einweggeschirr
+            gewägt um eine Erkenntnis zu Gewinnen wie viel Abfall in der
+            Projektlaufzeit gespart werden konnte. Das resultierende Gewicht
+            betrag 0.2 kg (TODO).
           </app-paragraph>
         </div>
         <div>
           <app-paragraph>
-            Die oben ersichtliche Darstellung stellt mit blauer Farbe das festgelegte Projektziel dar, welches bei 70%
-            liegt. Die grüne Linie zeigt das erstrebte Resultat, welches bei 77.5% liegt. Folgernd, wurde das
-            Projektziel nicht nur erreicht, sondern übertroffen. Die graue Kurve zeigt den Anteil der HR-Mitarbeiter,
-            welche ihr eigenes Tupperware verwendet, haben über den Zeitraum von zwei Wochen dar. Daraus ist
-            ersichtlich, dass in der ersten Woche der relative Anteil von selbstmitgebrachten Tupperware stark anstieg
-            und in der zweiten Woche stagniert ist. Am 10. Februar wurde sogar eine Prozentanzahl von 100 erreicht, was
-            heisst, dass alle HR-Mitarbeiter mit ihrem eigenen Tupperware beim Kiosk konsumiert haben. Jedoch haben an
-            diesem Tag nur zwei HR-Mitarbeiter das Mittagessen beim Kiosk genossen aufgrund von erhöhtem Home-Office
-            aufkommen. Zudem ist in der Grafik ersichtlich, dass vom 15. Februar auf den 16. Februar der Prozentsatz um
-            5% abnahm. Um den Grund dieser Abnahme zu analysieren, führte ich persönliche Gespräche mit den
-            HR-Mitarbeiter welche mir als Grund für das Benützten des Einweggeschirrs das unabsichtlichen Vergessens des
-            Tupperwares zu Hause angaben.
+            Die oben ersichtliche Darstellung stellt mit blauer Farbe das
+            festgelegte Projektziel dar, welches bei 70% liegt. Die grüne Linie
+            zeigt das erstrebte Resultat, welches bei 77.5% liegt. Folgernd,
+            wurde das Projektziel nicht nur erreicht, sondern übertroffen. Die
+            graue Kurve zeigt den Anteil der HR-Mitarbeiter, welche ihr eigenes
+            Tupperware verwendet, haben über den Zeitraum von zwei Wochen dar.
+            Daraus ist ersichtlich, dass in der ersten Woche der relative Anteil
+            von selbstmitgebrachten Tupperware stark anstieg und in der zweiten
+            Woche stagniert ist. Am 10. Februar wurde sogar eine Prozentanzahl
+            von 100 erreicht, was heisst, dass alle HR-Mitarbeiter mit ihrem
+            eigenen Tupperware beim Kiosk konsumiert haben. Jedoch haben an
+            diesem Tag nur zwei HR-Mitarbeiter das Mittagessen beim Kiosk
+            genossen aufgrund von erhöhtem Home-Office aufkommen. Zudem ist in
+            der Grafik ersichtlich, dass vom 15. Februar auf den 16. Februar der
+            Prozentsatz um 5% abnahm. Um den Grund dieser Abnahme zu
+            analysieren, führte ich persönliche Gespräche mit den HR-Mitarbeiter
+            welche mir als Grund für das Benützten des Einweggeschirrs das
+            unabsichtlichen Vergessens des Tupperwares zu Hause angaben.
           </app-paragraph>
           <app-paragraph>
-            Dank dieses Projekts wurde der Einweg-Abfall um x kg (TODO) reduziert. Wenn sich der durchschnittliche
-            Tupperware-Gebrauch über ein Jahr halten würde, könnten in einem Jahr über x kg (TODO) an Abfall eingespart
-            werden. Im Verlauf des Projekts wurden auch andere Teams auf das Projekt und den ökologischen Aspekt
-            aufmerksam und zeigten sich bereit mit ihrem eigenen Tupperware beim Kiosk zu konsumieren. Angenommen, dass
-            sich der Projekt-Ansatz auf die ganze Firma, mit 2500 Mitarbeiter, auswirken würde und ebenfalls 77.5% der
-            Mitarbeiter ihr eigenes Tupperware mitbringen könnte einen Einweg-Abfall Reduktion von x kg (TODO)
+            Dank dieses Projekts wurde der Einweg-Abfall um x kg (TODO)
+            reduziert. Wenn sich der durchschnittliche Tupperware-Gebrauch über
+            ein Jahr halten würde, könnten in einem Jahr über x kg (TODO) an
+            Abfall eingespart werden. Im Verlauf des Projekts wurden auch andere
+            Teams auf das Projekt und den ökologischen Aspekt aufmerksam und
+            zeigten sich bereit mit ihrem eigenen Tupperware beim Kiosk zu
+            konsumieren. Angenommen, dass sich der Projekt-Ansatz auf die ganze
+            Firma, mit 2500 Mitarbeiter, auswirken würde und ebenfalls 77.5% der
+            Mitarbeiter ihr eigenes Tupperware mitbringen könnte einen
+            Einweg-Abfall Reduktion von x kg (TODO)
           </app-paragraph>
         </div>
       </div>

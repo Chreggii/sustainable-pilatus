@@ -5,11 +5,8 @@ import { SharedModule } from '../../shared/shared.module';
 import { ReflectionComponent } from './reflection.component';
 
 @NgModule({
-  imports: [
-    CommonModule,
-    SharedModule
-  ],
+  imports: [CommonModule, SharedModule],
   declarations: [ReflectionComponent],
-  exports: [ReflectionComponent]
+  exports: [ReflectionComponent],
 })
-export class ReflectionModule { }
+export class ReflectionModule {}

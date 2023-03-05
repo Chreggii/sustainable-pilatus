@@ -8,7 +8,7 @@ import {
   ApexTitleSubtitle,
   ApexXAxis,
   ApexYAxis,
-  ChartComponent
+  ChartComponent,
 } from 'ng-apexcharts';
 
 export type ChartOptions = {
@@ -36,50 +36,17 @@ export class EvaluationComponent {
       series: [
         {
           name: 'Tupperware-Gebrauch',
-          data: [
-            30,
-            44,
-            61,
-            81,
-            100,
-            80,
-            95,
-            97,
-            92,
-            95
-          ],
+          data: [30, 44, 61, 81, 100, 80, 95, 97, 92, 95],
           color: '#adb5bd',
         },
         {
           name: 'Durchschnitt',
-          data: [
-            77.5,
-            77.5,
-            77.5,
-            77.5,
-            77.5,
-            77.5,
-            77.5,
-            77.5,
-            77.5,
-            77.5
-          ],
+          data: [77.5, 77.5, 77.5, 77.5, 77.5, 77.5, 77.5, 77.5, 77.5, 77.5],
           color: '#198754',
         },
         {
           name: 'Ziel',
-          data: [
-            70,
-            70,
-            70,
-            70,
-            70,
-            70,
-            70,
-            70,
-            70,
-            70
-          ],
+          data: [70, 70, 70, 70, 70, 70, 70, 70, 70, 70],
           color: '#0d6efd',
         },
       ],
@@ -119,15 +86,15 @@ export class EvaluationComponent {
           '14. Feb',
           '15. Feb',
           '16. Feb',
-          '17. Feb'
+          '17. Feb',
         ],
-        title: { text: 'Datum' }
+        title: { text: 'Datum' },
       },
       yaxis: {
         max: 100,
         title: { text: 'Tupperware-Gebrauch Anteil' },
-        labels: { formatter: val => `${val}%` }
-      }
+        labels: { formatter: (val) => `${val}%` },
+      },
     };
   }
 }

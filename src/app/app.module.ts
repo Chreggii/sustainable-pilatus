@@ -21,9 +21,9 @@ import { ReflectionModule } from './pages/reflection/reflection.module';
     LandingModule,
     ProjectModule,
     ContactModule,
-    ReflectionModule
+    ReflectionModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
