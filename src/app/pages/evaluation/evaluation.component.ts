@@ -7,7 +7,7 @@ import {
   ApexStroke,
   ApexTitleSubtitle,
   ApexXAxis,
-  ChartComponent,
+  ChartComponent
 } from 'ng-apexcharts';
 
 export type ChartOptions = {
@@ -33,27 +33,52 @@ export class EvaluationComponent {
     this.chartOptions = {
       series: [
         {
-          name: 'Test',
-          data: [10, 41, 35, 51, 49, 62, 69, 91, 148],
+          name: 'Tupperware-Gebrauch',
+          data: [
+            30,
+            44,
+            61,
+            81,
+            100,
+            80,
+            95,
+            97,
+            92,
+            95
+          ],
           color: '#adb5bd',
         },
         {
-          name: 'Trend',
+          name: 'Durchschnitt',
           data: [
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            148,
-            150,
-            160,
-            180,
+            77.5,
+            77.5,
+            77.5,
+            77.5,
+            77.5,
+            77.5,
+            77.5,
+            77.5,
+            77.5,
+            77.5
           ],
-          color: '#757575',
+          color: '#198754',
+        },
+        {
+          name: 'Ziel',
+          data: [
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70
+          ],
+          color: '#0d6efd',
         },
       ],
       chart: {
@@ -71,7 +96,7 @@ export class EvaluationComponent {
         curve: 'straight',
       },
       title: {
-        text: 'TREND',
+        text: 'Relativer Anteil von Tupperware-Gebrauch',
         align: 'left',
         style: { fontFamily: 'Oak Bold', fontSize: '16px' },
       },
@@ -83,18 +108,16 @@ export class EvaluationComponent {
       },
       xaxis: {
         categories: [
-          'Jan',
-          'Feb',
-          'Mar',
-          'Apr',
-          'May',
-          'Jun',
-          'Jul',
-          'Aug',
-          'Sep',
-          'Okt',
-          'Nov',
-          'Dez',
+          '6. Feb',
+          '7. Feb',
+          '8. Feb',
+          '9. Feb',
+          '10. Feb',
+          '13. Feb',
+          '14. Feb',
+          '15. Feb',
+          '16. Feb',
+          '17. Feb'
         ],
       },
     };

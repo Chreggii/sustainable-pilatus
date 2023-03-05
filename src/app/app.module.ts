@@ -9,6 +9,7 @@ import { ContactModule } from './pages/contact/contact.module';
 import { EvaluationModule } from './pages/evaluation/evaluation.module';
 import { LandingModule } from './pages/landing/landing.module';
 import { ProjectModule } from './pages/project/project.module';
+import { ReflectionModule } from './pages/reflection/reflection.module';
 
 @NgModule({
   declarations: [AppComponent, MenuComponent],
@@ -20,8 +21,9 @@ import { ProjectModule } from './pages/project/project.module';
     LandingModule,
     ProjectModule,
     ContactModule,
+    ReflectionModule
   ],
   providers: [],
   bootstrap: [AppComponent],
 })
-export class AppModule {}
+export class AppModule { }
