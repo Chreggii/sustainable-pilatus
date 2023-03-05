@@ -7,6 +7,7 @@ import {
   ApexStroke,
   ApexTitleSubtitle,
   ApexXAxis,
+  ApexYAxis,
   ChartComponent
 } from 'ng-apexcharts';
 
@@ -14,6 +15,7 @@ export type ChartOptions = {
   series: ApexAxisChartSeries;
   chart: ApexChart;
   xaxis: ApexXAxis;
+  yaxis: ApexYAxis | ApexYAxis[];
   dataLabels: ApexDataLabels;
   grid: ApexGrid;
   stroke: ApexStroke;
@@ -96,7 +98,7 @@ export class EvaluationComponent {
         curve: 'straight',
       },
       title: {
-        text: 'Relativer Anteil von Tupperware-Gebrauch',
+        text: 'Tupperware-Gebrauch',
         align: 'left',
         style: { fontFamily: 'Oak Bold', fontSize: '16px' },
       },
@@ -119,7 +121,13 @@ export class EvaluationComponent {
           '16. Feb',
           '17. Feb'
         ],
+        title: { text: 'Datum' }
       },
+      yaxis: {
+        max: 100,
+        title: { text: 'Tupperware-Gebrauch Anteil' },
+        labels: { formatter: val => `${val}%` }
+      }
     };
   }
 }
