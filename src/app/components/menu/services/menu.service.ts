@@ -28,6 +28,11 @@ export class MenuService {
       action: (id: MenuPage) => this.selectItem(id),
     },
     {
+      id: 'reflection',
+      label: 'Reflektion',
+      action: (id: MenuPage) => this.selectItem(id),
+    },
+    {
       id: 'contact',
       label: 'Kontakt',
       action: (id: MenuPage) => this.selectItem(id),

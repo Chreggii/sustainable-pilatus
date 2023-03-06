@@ -1,12 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-reflection',
   templateUrl: './reflection.component.html',
   styleUrls: ['./reflection.component.scss'],
 })
-export class ReflectionComponent implements OnInit {
-  constructor() {}
-
-  ngOnInit() {}
-}
+export class ReflectionComponent {}

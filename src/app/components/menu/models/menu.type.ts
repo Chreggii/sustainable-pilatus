@@ -1,1 +1,1 @@
-export type MenuPage = 'project' | 'evaluation' | 'contact';
+export type MenuPage = 'project' | 'evaluation' | 'reflection' | 'contact';
