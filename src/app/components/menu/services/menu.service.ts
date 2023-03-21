@@ -17,27 +17,27 @@ export class MenuService {
     label: string;
     action: (id: MenuPage) => void;
   }[] = [
-      {
-        id: 'project',
-        label: 'Projekt',
-        action: (id: MenuPage) => this.selectItem(id),
-      },
-      {
-        id: 'evaluation',
-        label: 'Auswertung',
-        action: (id: MenuPage) => this.selectItem(id),
-      },
-      {
-        id: 'reflection',
-        label: 'Reflektion',
-        action: (id: MenuPage) => this.selectItem(id),
-      },
-      {
-        id: 'contact',
-        label: 'Kontakt',
-        action: (id: MenuPage) => this.selectItem(id),
-      },
-    ];
+    {
+      id: 'project',
+      label: 'Projekt',
+      action: (id: MenuPage) => this.selectItem(id),
+    },
+    {
+      id: 'evaluation',
+      label: 'Auswertung',
+      action: (id: MenuPage) => this.selectItem(id),
+    },
+    {
+      id: 'reflection',
+      label: 'Reflektion',
+      action: (id: MenuPage) => this.selectItem(id),
+    },
+    {
+      id: 'contact',
+      label: 'Kontakt',
+      action: (id: MenuPage) => this.selectItem(id),
+    },
+  ];
 
   getViewModel(): Observable<MenuViewModel> {
     return of({ items: this.menuItems });
